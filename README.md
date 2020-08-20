@@ -318,7 +318,7 @@ public class UserExtendController implements UserApi{
 public interface UserApi
 ```
 tags：接口说明，可以在页面中显示。可以配置多个，当配置多个的时候，在页面中会显示多个接口的信息。此处这样配置就不会在页面展示controller名称。直接展示user。这样可以更好的针对对象展示接口
-
+![效果图](https://raw.githubusercontent.com/jehvi/swagger-jevhi/master/clipboard.png)
 2. ApiModel
 @ApiModel 用在类上，表示对类进行说明，用于实体类中的参数接收说明。
 3. ApiModelProperty
