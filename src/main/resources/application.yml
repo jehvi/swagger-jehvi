@@ -1,0 +1,16 @@
+server:
+    port: 8008
+
+#swagger公共信息
+swagger:
+    title: jehvi 李金徽API接口
+    description: API 接口
+    license: jehvi
+    license-url: http://jehvi.com.cn
+    terms-of-service-url: http://jehvi.com.cn
+    contact:
+        name: jehvi 李金徽
+        email: lijinhui001@sina.com
+        url: https://jehvi.com.cn
+    version: 1.0.0
+
