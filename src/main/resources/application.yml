@@ -13,4 +13,7 @@ swagger:
         email: lijinhui001@sina.com
         url: https://jehvi.com.cn
     version: 1.0.0
+    basePackages:
+        - com.jehvi
+        - org.springframework.security.oauth2.provider.endpoint
 

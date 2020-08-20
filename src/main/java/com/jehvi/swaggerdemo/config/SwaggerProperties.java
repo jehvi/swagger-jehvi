@@ -5,6 +5,10 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 /**
  * @author: lijh
  * @date: 2020/8/18
@@ -16,6 +20,8 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @NoArgsConstructor
 @ConfigurationProperties("swagger")
 public class SwaggerProperties {
+
+    private List<String> basePackages = new ArrayList<>(Collections.singletonList("com.jehvi"));
 
     /**
      * 标题
